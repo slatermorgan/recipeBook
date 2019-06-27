@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+
 router.get('/recipes', function(req, res) {
   res.send({type: 'GET'});
 });
